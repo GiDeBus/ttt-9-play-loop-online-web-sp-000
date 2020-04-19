@@ -40,6 +40,6 @@ end
 def play(board)
   turn_counter = 1
   while turn_counter < 9
-    turn
+    turn(board)
   end
 end
